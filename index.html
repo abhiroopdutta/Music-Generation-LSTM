@@ -30,8 +30,8 @@
     </body>
     <script type="text/javascript">
     
-        var songs = ["Song1.mp3","Song2.mp3","Song3.mp3"];
-        var poster = ["Poster1.jpg","Poster2.jpg","Poster3.jpg"];
+        var songs = ["Song1.mp3","Song2.mp3","Song3.mp3","Song4.mp3","Song5.mp3","Song6.mp3","Song7.mp3","Song8.mp3"];
+        var poster = ["Poster1.jpg","Poster2.jpg","Poster3.jpg","Poster4.jpeg","Poster5.jpeg","Poster6.jpeg","Poster7.jpeg","Poster8.jpeg"];
         
         var songTitle = document.getElementById("songTitle");
         var fillBar = document.getElementById("fill");
@@ -73,7 +73,7 @@
         function next(){
             
             currentSong++;
-            if(currentSong > 2){
+            if(currentSong > 7){
                 currentSong = 0;
             }
             playSong();
